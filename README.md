@@ -8,7 +8,7 @@ Das Programm kann nur erfolgreich durchgeführt werden, wenn der Prototyp angesc
 
 1. Wähle unter **Werkzeuge/Board:** den **Arduino UNO** aus.
 
-2. Wähle unter **Werkzeuge/Port:** den passenden Anschluss zum Prototypen.
+2. Wähle unter **Werkzeuge/Port:** den passenden Anschluss zum Prototypen aus.
 
 ### Ausführung
 
