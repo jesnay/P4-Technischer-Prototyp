@@ -18,4 +18,4 @@ Das Programm kann nur erfolgreich durchgeführt werden, wenn der Prototyp angesc
 
 - Die LED sollte bei Tageslicht nicht leuchten.
 
-- Verdeckt man den Fotowiderstand, sollte nun die LED aufleuchten
+- Verdeckt man den Fotowiderstand, sollte nun die LED aufleuchten.
