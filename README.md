@@ -3,6 +3,7 @@
 ### Voraussetzung
 
 Das Programm kann nur erfolgreich durchgeführt werden, wenn der Prototyp angeschlossen ist.
+Bevorzugte Software: Arduino IDE 1.8.19 (downloadbar unter: https://www.arduino.cc/en/software)
 
 ### Einstellungen
 
