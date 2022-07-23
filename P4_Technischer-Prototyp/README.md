@@ -3,12 +3,13 @@
 ### Voraussetzung
 
 Das Programm kann nur erfolgreich durchgeführt werden, wenn der Prototyp angeschlossen ist.
+Bevorzugte Software: Arduino IDE 1.8.19 (downloadbar unter: https://www.arduino.cc/en/software)
 
 ### Einstellungen
 
 1. Wähle unter **Werkzeuge/Board:** den **Arduino UNO** aus.
 
-2. Wähle unter **Werkzeuge/Port:** den passenden Anschluss zum Prototypen.
+2. Wähle unter **Werkzeuge/Port:** den passenden Anschluss zum Prototypen aus.
 
 ### Ausführung
 
@@ -18,4 +19,4 @@ Das Programm kann nur erfolgreich durchgeführt werden, wenn der Prototyp angesc
 
 - Die LED sollte bei Tageslicht nicht leuchten.
 
-- Verdeckt man den Fotowiderstand, sollte nun die LED aufleuchten
+- Verdeckt man den Fotowiderstand, sollte nun die LED aufleuchten.
