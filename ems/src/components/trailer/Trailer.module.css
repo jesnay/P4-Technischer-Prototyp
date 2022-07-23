@@ -1,0 +1,20 @@
+.Trailer {
+  display: block;
+  content: "";
+  clear: both;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.Trailer :global .content {
+  float: left;
+  width: 100%;
+  /*border: 3px solid #73ad21;*/
+  margin-top: 5%;
+}
+
+.Trailer :global h3 {
+  text-align: center;
+}

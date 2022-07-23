@@ -1,0 +1,111 @@
+.Rahmen {
+  display: block;
+  content: "";
+  clear: both;
+
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.Rahmen :global .content {
+  float: left;
+  width: 100%;
+  /*border: 3px solid #73ad21;*/
+}
+.Rahmen :global .level {
+  float: left;
+  width: 100%;
+  /*border: 3px solid #73ad21;*/
+}
+.Rahmen :global .leftSide {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+.Rahmen :global .frontImage {
+  width: 80%;
+  margin-left: 10%;
+}
+.Rahmen :global .backImage {
+  width: 80%;
+  margin-left: 10%;
+}
+.Rahmen :global button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #000000;
+}
+
+.Rahmen :global button:hover {
+  background-color: #fc9a38;
+  border: 3px solid #fc9a38;
+}
+.Rahmen :global .left {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+.Rahmen :global .right {
+  position: absolute;
+  top: 35%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+.Rahmen :global .LeftButton {
+  width: 80%;
+}
+.Rahmen :global .RightButton {
+  width: 80%;
+}
+.Rahmen :global .rightSide {
+  float: left;
+  width: 40%;
+  text-align: left;
+  margin-left: 5%;
+}
+.Rahmen :global p {
+  width: 100%;
+  text-align: left;
+}
+.Rahmen :global .btns {
+  width: 100%;
+}
+.Rahmen :global .lvlbtn {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  .Rahmen :global .rightSide {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .Rahmen :global .leftSide {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .Rahmen :global .lvlbtn {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+
+@media only screen and (max-width: 1310px) {
+  /* For mobile phones: */
+  .Rahmen :global .lvlbtn {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}

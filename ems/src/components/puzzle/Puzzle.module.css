@@ -1,0 +1,50 @@
+.Puzzle {
+  display: block;
+  content: "";
+  clear: both;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Puzzle :global .content {
+  float: left;
+  width: 100%;
+  /*border: 3px solid #73ad21;*/
+  margin-top: 5%;
+}
+
+.Puzzle :global .rightSide {
+  width: 50%;
+  float: left;
+}
+.Puzzle :global p {
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+
+.Puzzle :global .leftSide {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.Puzzle :global .image {
+  position: relative;
+  margin-top: 5%;
+}
+
+.Puzzle :global .puzzleImg {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  .Puzzle :global .leftSide {
+    width: 100%;
+  }
+  .Puzzle :global .rightSide {
+    width: 100%;
+  }
+}

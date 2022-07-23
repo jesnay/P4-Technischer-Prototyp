@@ -1,0 +1,51 @@
+.Problem {
+  display: block;
+  content: "";
+  clear: both;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Problem :global .content {
+  float: left;
+  width: 100%;
+  /*border: 3px solid #73ad21;*/
+  margin-top: 5%;
+}
+
+.Problem :global .rightSide {
+  width: 50%;
+  float: left;
+}
+.Problem :global p {
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+
+.Problem :global .leftSide {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.Problem :global .image {
+  position: relative;
+}
+
+.Problem :global .felix {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 70%;
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  .Problem :global .leftSide {
+    width: 100%;
+  }
+  .Problem :global .rightSide {
+    width: 100%;
+  }
+}

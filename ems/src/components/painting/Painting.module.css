@@ -1,0 +1,59 @@
+.Painting {
+  display: block;
+  content: "";
+  clear: both;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Painting :global .content {
+  float: left;
+  width: 100%;
+  /*border: 3px solid #73ad21;*/
+  margin-top: 5%;
+}
+
+.Painting :global .rightSide {
+  width: 50%;
+  float: left;
+}
+.Painting :global p {
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+
+.Painting :global .leftSide {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.Painting :global .image {
+  position: relative;
+  margin-top: 10%;
+}
+
+.Painting :global .puzzleImg {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+.Painting :global .paint {
+  margin-left: 15%;
+  margin-top: -7%;
+  margin-bottom: 0%;
+  font-size: 1vw;
+  color: #b7b7b7;
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  .Painting :global .leftSide {
+    width: 100%;
+  }
+  .Painting :global .rightSide {
+    width: 100%;
+  }
+}
