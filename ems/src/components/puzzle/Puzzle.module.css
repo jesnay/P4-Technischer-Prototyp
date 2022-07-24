@@ -43,8 +43,12 @@
   /* For mobile phones: */
   .Puzzle :global .leftSide {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .Puzzle :global .rightSide {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

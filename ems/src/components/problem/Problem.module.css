@@ -44,8 +44,12 @@
   /* For mobile phones: */
   .Problem :global .leftSide {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .Problem :global .rightSide {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

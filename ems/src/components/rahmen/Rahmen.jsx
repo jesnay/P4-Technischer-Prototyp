@@ -17,31 +17,33 @@ function Rahmen() {
     <div className={styles.Rahmen}>
       <div className="content">
         <div className="leftSide">
-          {!perspective ? (
-            <img
-              className="frontImage"
-              src={require(`.././../assets/Rahmen_Front/Rahmen_Front_${workState}.png`)}
-              alt="Front Image"
-            />
-          ) : null}
+          <div className="interaction">
+            {!perspective ? (
+              <img
+                className="frontImage"
+                src={require(`.././../assets/Rahmen_Front/Rahmen_Front_${workState}.png`)}
+                alt="Front Image"
+              />
+            ) : null}
+            {perspective ? (
+              <img
+                className="backImage"
+                src={require(`.././../assets/Rahmen_Back/Rahmen_Back_${workState}.png`)}
+                alt="Back Image"
+              />
+            ) : null}
+            <button className="left round" onClick={turn}>
+              <img className="LeftButton" src={Left} alt="Left Button" />
+            </button>
+            <button className="right round" onClick={turn}>
+              <img className="RightButton" src={Right} alt="Right Button" />
+            </button>
+          </div>
 
-          {perspective ? (
-            <img
-              className="backImage"
-              src={require(`.././../assets/Rahmen_Back/Rahmen_Back_${workState}.png`)}
-              alt="Back Image"
-            />
-          ) : null}
-          <button className="left round" onClick={turn}>
-            <img className="LeftButton" src={Left} alt="Left Button" />
-          </button>
-          <button className="right round" onClick={turn}>
-            <img className="RightButton" src={Right} alt="Right Button" />
-          </button>
           <p>
             Probier es doch mal selber aus! Klicke dafür auf einen der Knöpfe
-            unter dem Bild und gib damit an, wie viele Aufgaben du schon im
-            Haushalt erledigt hast, um dein Ziel zu erreichen.
+            und gib damit an, wie viele Aufgaben du schon im Haushalt erledigt
+            hast, um dein Ziel zu erreichen.
           </p>
           <div className="btns">
             <button className="lvlbtn round" onClick={() => setWorkState(1)}>
