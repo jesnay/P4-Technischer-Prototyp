@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 function Trailer() {
   return (
     <div className={styles.Trailer}>
-      <div class="content">
+      <div className="content">
         <h3>PuzZiel Trailer</h3>
         <ReactPlayer width="100%" url="https://vimeo.com/731438880" />
       </div>
