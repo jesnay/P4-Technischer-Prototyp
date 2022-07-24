@@ -1,4 +1,16 @@
+@font-face {
+  font-family: "AvenirBook";
+  src: url(./assets/font/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: "AvenirBlack";
+  src: url(./assets/font/AvenirLTStd-Black.otf);
+}
+
 h3 {
+  color: #fc9a38;
+  font-family: "AvenirBlack";
   font-size: 3vw;
   margin-bottom: 10px;
   text-align: left;
@@ -6,6 +18,7 @@ h3 {
 }
 
 p {
+  font-family: "AvenirBook";
   font-size: 1.5vw;
 }
 

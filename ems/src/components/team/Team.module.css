@@ -11,12 +11,14 @@
   float: left;
   width: 100%;
   /*border: 3px solid #73ad21;*/
-  margin-top: 5%;
+  margin-top: 20%;
   margin-bottom: 15%;
 }
 
 .Team :global h3 {
   text-align: center;
+  margin-bottom: 10%;
+  font-size: 5vw;
 }
 
 .Team :global p {

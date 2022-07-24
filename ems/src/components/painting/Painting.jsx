@@ -40,7 +40,7 @@ function Painting() {
         </div>
 
         <div className="rightSide">
-          <h3>So funktionierts</h3>
+          <h3>So funktioniert's</h3>
           <p>
             Das System der Entlohnung wird anhand eines Wunsches gezeigt. Das
             Kind setzt sich gemeinsam mit seinen Eltern hin und mal seinen
